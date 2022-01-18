@@ -1,24 +1,30 @@
 #SolarizedDark grub2 theme
 
-title-text: ""
-desktop-color: "#002b36"
+title-text: "swagtop"
+desktop-color: "#000000"
 terminal-box: "terminal_box_*.png"
 terminal-font: "Gnu Unifont Mono Regular 16"
 
++ image {
+		top = 20%
+        left = 50%-128
+		file = "title.png"
+}
+
 + boot_menu {
-  left = 10%
-  width = 80%
-  top = 25%
-  height = 50%
+  left = 25%
+  width = 50%
+  top = 40%
+  height = 40%
 
   item_font = "DejaVu Sans Bold 12"
-  item_color = "#839496"
+  item_color = "#6b6b6b"
   item_height = 32
   item_icon_space = 8
   item_spacing = 2
 
   selected_item_font = "DejaVu Sans Bold 12"
-  selected_item_color= "#002B36"
+  selected_item_color= "#ffffff"
   selected_item_pixmap_style = "select_*.png"
 
   icon_height = 32
@@ -40,10 +46,10 @@ terminal-font: "Gnu Unifont Mono Regular 16"
   # font = "DejaVu Sans Regular 12"
 
   # text_color = "#aaaaaa"
-  fg_color = "#073642"
+  fg_color = "#ff4b4b"
 
-  bg_color = "#586E75"
-  border_color = "#002B36"
+  bg_color = "#000000"
+  border_color = "#ffffff"
 
   # instead of the above colors, use pixmaps
   # bar_style = "progress_bar_*.png"
